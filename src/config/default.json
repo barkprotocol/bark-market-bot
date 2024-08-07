@@ -1,0 +1,28 @@
+{
+    "cluster": "mainnet-beta",
+    "logLevel": "info",
+    "logFilePath": "application.log",
+    "exceptionFilePath": "exceptions.log",
+    "rejectionFilePath": "rejections.log",
+    "tokenMintAddresses": {
+        "BARK_MINT_ADDRESS": "2NTvEssJ2i998V2cMGT4Fy3JhyFnAzHFonDo9dbAkVrg",
+        "USDC_MINT_ADDRESS": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "SOL_MINT_ADDRESS": "So11111111111111111111111111111111111111112"
+    },
+    "clusterUrls": {
+        "mainnet-beta": "https://api.mainnet-beta.solana.com",
+        "devnet": "https://api.devnet.solana.com",
+        "testnet": "https://api.testnet.solana.com"
+    },
+    "tradingStrategy": {
+        "waitTime": 60000,
+        "slippageBps": 50,
+        "priceTolerance": 0.02,
+        "rebalancePercentage": 0.5
+    },
+    "dynamicSlippage": {
+        "enabled": true,
+        "baseSlippageBps": 50,
+        "maxSlippageBps": 100
+    }
+}

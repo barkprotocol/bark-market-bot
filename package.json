@@ -1,0 +1,43 @@
+{
+    "name": "bark-trading-bot",
+    "version": "1.0.0",
+    "description": "The BARK - Market Maker Bot is designed to automate trading strategies on the Solana blockchain using the Jupiter swap protocol.",
+    "scripts": {
+        "start": "node dist/main.js",
+        "dev": "ts-node src/main.ts",
+        "test": "jest",
+        "build": "tsc"
+    },
+    "keywords": [
+        "solana",
+        "BARK",
+        "trading",
+        "bot"
+    ],
+    "author": "BARK Protocol",
+    "license": "MIT",
+    "dependencies": {
+        "@jup-ag/api": "^6.0.24",
+        "@jup-ag/core": "^4.0.0-beta.21",
+        "@project-serum/anchor": "^0.26.0",
+        "@solana/spl-token-registry": "^0.2.4574",
+        "@solana/web3.js": "^1.95.2",
+        "axios": "^1.7.3",
+        "body-parser": "^1.20.2",
+        "bs58": "^6.0.0",
+        "cross-fetch": "^4.0.0",
+        "decimal.js": "^10.4.3",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "joi": "^17.13.3",
+        "jsbi": "^4.3.0",
+        "winston": "^3.13.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.12",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.4",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "cluster": "devnet",
+    "logLevel": "debug",
+    "logFilePath": "dev-application.log",
+    "exceptionFilePath": "dev-exceptions.log",
+    "rejectionFilePath": "dev-rejections.log",
+    "tradingStrategy": {
+        "waitTime": 10000,
+        "slippageBps": 100
+    },
+    "dynamicSlippage": {
+        "enabled": true
+    }
+}
