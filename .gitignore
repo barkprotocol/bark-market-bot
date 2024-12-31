@@ -1,4 +1,2 @@
-node_modules/
-dist/
-wallet/index.ts
-.env
+node_modules
+.env*
