@@ -1,0 +1,52 @@
+{
+  "name": "bark-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bark**BOT** is a powerful Telegram-based trading and tracking bot designed for Solana blockchain enthusiasts.",
+  "main": "serve.ts",
+  "scripts": {
+    "serve": "nodemon ./serve.ts",
+    "start": "npx ts-node serve.ts",
+    "build": "npm run clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "BARK Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "@jup-ag/api": "^6.0.32",
+    "@jup-ag/referral-sdk": "^0.1.7",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@raydium-io/raydium-sdk": "1.3.1-beta.58",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "bech32": "^2.0.0",
+    "bn.js": "^5.2.1",
+    "bs58": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "logger": "^0.0.1",
+    "mongoose": "^8.9.3",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.65.1",
+    "nodemon": "^3.1.9",
+    "promise-retry": "^2.0.1",
+    "redis": "^4.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^20.17.11",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "@types/promise-retry": "^1.1.6"
+  }
+}
